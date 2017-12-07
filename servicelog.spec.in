@@ -12,7 +12,7 @@ Vendor:		IBM Corp.
 URL:            http://linux-diag.sourceforge.net/servicelog
 Source0:        http://downloads.sourceforge.net/linux-diag/%{name}/%{version}/%{name}-%{version}.tar.gz
 
-BuildRequires:  libservicelog-devel libtool automake
+BuildRequires:  libservicelog-devel libtool automake librtas-devel
 ExclusiveArch:	ppc ppc64 ppc64le
 
 %description
